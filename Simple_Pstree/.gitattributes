@@ -1,1 +1,2 @@
-Makefile linguist-language=C
+*Makefile linguist-language=C
+*.mk linguist-language=C
