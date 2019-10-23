@@ -4,7 +4,6 @@ CC := gcc
 override CFLAGS += -O3 -Wall
 OBJS = hw4_mm_test.o ./lib/hw_malloc.o
 SUBDIR = ./lib
-GIT_HOOKS := .git/hooks/applied
 
 all: $(GIT_HOOKS) $(TARGETS)
 
